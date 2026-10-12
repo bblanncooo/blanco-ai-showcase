@@ -55,7 +55,9 @@ Pago mensual o anual (2 meses gratis). Los planes de pago se abren el 15 de dici
 
 ## Autor
 
-Hecho por **Carlos** ([@bblanncooo](https://github.com/bblanncooo)), desde Madrid.
+Hecho por **Carlos Melero** ([@bblanncooo](https://github.com/bblanncooo)), desde Madrid.
+
+📧 Contacto: [jcmelero74@gmail.com](mailto:jcmelero74@gmail.com)
 
 ---
 
