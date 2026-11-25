@@ -2,62 +2,80 @@
 
 # Blanco AI
 
-**La IA que te ayuda a estudiar de verdad.** Un asistente en español pensado para estudiantes: chatea, resume apuntes,
-crea flashcards, prepara exámenes y repasa contigo.
+**La IA que te explica lo que no entiendes.** Una IA en español para estudiar: le haces una foto a los deberes y te lo
+explica paso a paso, convierte tus apuntes en esquemas y tests, te prepara la selectividad y puedes hablar con ella en
+voz alta.
 
-[**Probar Blanco AI → blancoai.app**](https://blancoai.app)
+[**Probar Blanco AI gratis → blancoai.app**](https://blancoai.app)
 
 </div>
 
-![Página de inicio de Blanco AI](capturas/landing-escritorio.png)
+![Página de inicio de Blanco AI](capturas/portada-escritorio.jpg)
 
 > Este repositorio es un **escaparate**: enseña el proyecto, no contiene su código. El código de Blanco AI es privado.
 
-## Qué hace
+## La IA, por dentro
 
-- **Chat con IA en español**: elige solo el modelo adecuado para cada pregunta, busca en internet cuando hace falta (con
-  sus fuentes) y hace las cuentas con una calculadora exacta en vez de "de cabeza".
-- **Modo Estudio**: un profe que explica hasta que lo pillas, flashcards con repaso espaciado, exámenes de práctica
-  corregidos y un panel con lo que llevas flojo.
-- **Se acuerda de ti**: tu nombre, tu curso y cómo estudias, en todos tus dispositivos.
-- **Grupos**: salas para estudiar con tus amigos, con Blanco dentro (@Blanco) y llamadas de voz.
-- **Modo conversación**: hablar con Blanco en tiempo real, como en una llamada.
-- **Blanco te llama**: te llama a la hora que elijas para repasar lo de tu próximo examen.
-- **Archivos**: lee PDF, Word y fotos de apuntes, y te devuelve resúmenes, esquemas o documentos de Word y PDF.
-- **Código**: vista previa en vivo de HTML, CSS, JavaScript y React, y archivos de Packet Tracer.
-- **App instalable** en el móvil (PWA), con modo claro y oscuro.
+Una pregunta de verdad, con la respuesta tal cual la da Blanco: paso a paso, sin soltar solo la solución.
+
+![Blanco explicando paso a paso una ecuación de segundo grado](capturas/chat-escritorio.jpg)
 
 <p align="center">
-  <img src="capturas/app-chat.png" alt="El chat de Blanco AI por dentro" width="760">
+  <img src="capturas/chat-movil.jpg" alt="Blanco haciendo un esquema de la fotosíntesis en el móvil" width="300">
+  &nbsp;&nbsp;
+  <img src="capturas/portada-movil.jpg" alt="La portada de Blanco AI en el móvil" width="300">
 </p>
 
+## Qué hace
+
+- **Foto de deberes**: lee el ejercicio y te lo explica paso a paso, con dibujos y esquemas cuando hace falta.
+- **Modo Estudio**: esquemas, resúmenes, tests y flashcards de tus propios apuntes (PDF, Word o fotos), con repaso
+  espaciado y un panel con lo que llevas flojo.
+- **Selectividad**: exámenes tipo PAU de 12 asignaturas, corregidos de 0 a 10 pregunta a pregunta, como el tribunal.
+- **Habla con Blanco**: conversación por voz en tiempo real, y un profe que mira por la cámara el ejercicio que tienes
+  delante y te guía.
+- **Blanco te llama**: a la hora que elijas, para repasar lo de tu próximo examen.
+- **Se acuerda de ti**: tu curso, lo que te cuesta y cómo te gusta que te expliquen, en todos tus dispositivos.
+- **Grupos y concurso en directo**: salas para estudiar con tus amigos, con Blanco dentro, y concursos tipo quiz con
+  tus apuntes para toda la clase.
+- **Pain**: el modelo propio de Blanco, sobre un modelo de pesos abiertos, que aprende de sus propias prácticas y
+  contesta cada vez más preguntas sin depender de los grandes proveedores.
+- **Temas de clase gratis**: cientos de temas de ESO y Bachillerato explicados, con su test, abiertos para todos.
+- **App instalable** en el móvil, con modo claro y oscuro.
+
+![Las funciones de Blanco en la portada](capturas/portada-escritorio-galeria.jpg)
+
 <p align="center">
-  <img src="capturas/landing-movil.png" alt="Blanco AI en el móvil" width="300">
+  <img src="capturas/selectividad.jpg" alt="Simulacros de selectividad corregidos con nota" width="49%">
+  <img src="capturas/temas.jpg" alt="Temas de clase explicados" width="49%">
 </p>
 
 ## Planes
 
 | Gratis | Study | Pro |
 |---|---|---|
-| 35 mensajes al día | Modo Estudio sin límite · 2,99 €/mes | Todo sin límite, los mejores modelos, voz e imágenes · 4,69 €/mes |
+| 50 mensajes al día en el chat, 35 en Modo Estudio y 3 fotos, sin tarjeta | Modo Estudio sin límite · 2,99 €/mes | Todo sin límite, los mejores modelos, voz e imágenes · 4,69 €/mes |
 
-Pago mensual o anual (2 meses gratis). Los planes de pago se abren el 15 de diciembre de 2026.
+Pago mensual o anual (2 meses gratis). La versión completa y los planes de pago se abren el **15 de diciembre de 2026**.
 
 ## Cómo está hecho
 
 - **Backend:** Node.js + Express, PostgreSQL (con pgvector para buscar en tus documentos).
-- **Frontend:** JavaScript sin frameworks, como PWA instalable.
-- **IA:** modelos de OpenAI (el principal, "Luna") con respaldo de otros proveedores si uno falla.
-- **Infraestructura:** Railway + Cloudflare, pagos con Stripe, copias de seguridad automáticas cada noche y pruebas
-  automáticas en cada cambio.
+- **Frontend:** JavaScript sin frameworks, como app instalable (PWA).
+- **IA:** varios proveedores de modelos con respaldo automático si uno falla, y Pain, el modelo propio, para las
+  preguntas que ya sabe contestar.
+- **Infraestructura:** Railway + Cloudflare, pagos con Stripe y más de 500 pruebas automáticas antes de cada cambio.
 - **Seguridad:** cuentas con código por correo, datos de cada cuenta separados en el servidor y revisiones de seguridad
   periódicas.
 
 ## Autor
 
-Hecho por **Carlos Melero** ([@bblanncooo](https://github.com/bblanncooo)), desde Madrid.
+Hecho por **Carlos Melero** ([@bblanncooo](https://github.com/bblanncooo)), 17 años, desde Madrid. Empezó en mayo de
+2026 y lo ha construido entero él solo.
 
-📧 Contacto: [jcmelero74@gmail.com](mailto:jcmelero74@gmail.com)
+- Web: [blancoai.app](https://blancoai.app)
+- LinkedIn: [Carlos Melero](https://www.linkedin.com/in/carlos-melero-5151b441a/)
+- 📧 Contacto: [jcmelero74@gmail.com](mailto:jcmelero74@gmail.com)
 
 ---
 
