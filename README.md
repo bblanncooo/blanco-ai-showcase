@@ -74,7 +74,7 @@ Hecho por **Carlos Melero** ([@bblanncooo](https://github.com/bblanncooo)), 17 a
 2026 y lo ha construido entero él solo.
 
 - Web: [blancoai.app](https://blancoai.app)
-- LinkedIn: [Carlos Melero](https://www.linkedin.com/in/carlos-melero-5151b441a/)
+- LinkedIn: [Carlos Melero](https://www.linkedin.com/in/carlosmeleroai/)
 - 📧 Contacto: [jcmelero74@gmail.com](mailto:jcmelero74@gmail.com)
 
 ---
